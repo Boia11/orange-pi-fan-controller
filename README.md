@@ -14,6 +14,8 @@ The instructions for do that you can be found on this guide for RPi: [Control Yo
 
 **<u>THIS SCRIPT IS SET TO CONTROL FAN WITH PIN 9 (Tested on board: Orange Pi 3 LTS)</u>**
 
+![](http://www.orangepi.org/orangepiwiki/images/4/4d/Orange-pi-3-lts-interface-details-img2.png)
+
 ## Requirements
 
 **This script require [wiringOP](https://github.com/orangepi-xunlong/wiringOP) install on OS.**
