@@ -14,6 +14,24 @@ The instructions for do that you can be found on this guide for RPi: [Control Yo
 
 **<u>THIS SCRIPT IS SET TO CONTROL FAN WITH PIN 9 (Tested on board: Orange Pi 3 LTS)</u>**
 
+## Install
+
+```
+sudo apt install python3-pip
+sudo git clone https://github.com/Boia11/orange-pi-fan-controller.git
+cd orange-pi-fan-controller
+sudo chmod +x ./script/install
+sudo ./script/install
+
+--------- fan controller on boot ---------
+sudo mv fancontrol.sh /etc/init.d/
+sudo chmod +x /etc/init.d/fancontrol.sh
+sudo update-rc.d fancontrol.sh defaults
+sudo /etc/init.d/fancontrol.sh start --- OR --- sudo reboot
+```
+
+
+
 ## Board Pinout
 
 ### Orange Pi 3/3 LTS - Allwinner H6
